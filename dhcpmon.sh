@@ -1,6 +1,11 @@
 #!/bin/sh
-
-# goes into /usr/local/bin/dhcpmon.sh
+#
+# dhcpmon script
+# Checks the interface DHCP status and reloads it if necessary
+#
+# Copyright (c) 2020 Micha LaQua <micha.laqua@gmail.com>
+#
+# This belongs into /usr/local/bin/dhcpmon.sh
 
 log () {
   echo "$1"
